@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    color: white;
+    background: #000000;
+}
+
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 120%;
+    background: #000000;
+}
+
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: blueviolet;
+}
+
+
+.detel{
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.detel span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff6600;
+}
+.detel p{
+    color: whitesmoke;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+.detel a{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+    display: flex;
+    margin: 0px;
+    border-radius: 5px;
+    background: #000000;
+}
+
+
+.image{
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+.image img{
+    height: 80%;
+    position: absolute;
+    left: 80%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.image:hover .bg{
+    bottom: 40px;
+}
+
+.image:hover .me{
+    left: 45%;
+}
+
+
+.HOME-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px dotted #0ef;
+    text-decoration: none;
+    margin: 25px 15px 30px 0;
+}
+.HOME-sci a:hover{
+    background: rgb(0, 255, 255);
+    color: #ffffff;
+    box-shadow: 0 0 20px #0ef;
+}
+
+
+.btn-box{
+    display: inline-block;
+    padding: 9px 17px ;
+    background: #000000;
+    border-radius: 40px;
+    font-size: 16px;
+    color: blueviolet;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.btn-box a:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.about img{
+    width: 330px;
+        height: 320px;
+}
+.ABOUT-text{
+    margin-left: 45%;
+    margin-top: -20%;
+}
+.ABOUT-text h1{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ABOUT-text span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff6600;
+}
+.ABOUT-text p{
+    color: whitesmoke;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+
+
+.container{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.container h1{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 8%;
+}
+.container span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff6600;
+}
+
+
+.kontak{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.kontak span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff6600;
+}
+
+.kontak h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.kontak h2{
+    margin-left: 30%;
+    margin-top: 4%;
+    font-size: 15px;
+    color: blueviolet;
+}
+.kontak h3{
+    margin-left: 27%;
+    margin-top: 0%;
+    font-size: 15px;
+    color: blueviolet;
+}
+
+.CONTECT-sci{
+    margin-left: 44%;
+    margin-top: 0%;
+}
+
+.CONTECT-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px dotted #0ef;
+    text-decoration: none;
+    margin: 10px 10px 30px 0px;
+}
+.CONTECT-sci a:hover{
+    background: rgb(0, 255, 255);
+    color: #ffffff;
+    box-shadow: 0 0 20px #0ef;
+
+}
+
+
